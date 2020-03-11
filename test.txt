@@ -4,3 +4,12 @@ hello world!
 添加的信息
 
 git push origin master
+
+1. 将工作区创建的文件test.txt添加到暂存区
+git add test.txt
+
+2. 将暂存区的内容提交到仓库区， -m 为备注信息
+git commit -m “测试”
+
+3. 将仓库区的内容推送到远程仓库Github
+git push origin master
